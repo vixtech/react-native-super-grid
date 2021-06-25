@@ -101,6 +101,7 @@ const FlatGrid = memo(
                   index: rowIndex * itemsPerRow + i,
                   separators,
                   rowIndex,
+                  itemsPerRow,
                 })}
               </View>
             ))}
